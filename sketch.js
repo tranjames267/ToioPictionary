@@ -58,7 +58,7 @@ function pickWord() {
 const connectedCubeArray = [];
 
 function draw() {
-  const cubeP = connectedCubeArray[0]; // First cube paired is the follower
+  const cubeP = connectedCubeArray[0]; // First cube paired is the controller
   const cubeQ = connectedCubeArray[1];
 
   // Keep on chasing the other Cube
